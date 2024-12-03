@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Finn public transport extension",
+    "version": "1.0.0",
+    "description": "See the time it takes to take public transport to job listing on Finn",
+    "icons": {
+        "16": "school-bus-16px.png",
+        "32": "school-bus-32px.png",
+        "128": "school-bus-128px.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
